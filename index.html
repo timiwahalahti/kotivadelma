@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Kotivadelma : Simple, portable and easily customizable lobby information display system" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Kotivadelma</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/SipuliSopuli/kotivadelma">View on GitHub</a>
+
+          <h1 id="project_title">Kotivadelma</h1>
+          <h2 id="project_tagline">Simple, portable and easily customizable lobby information display system</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/SipuliSopuli/kotivadelma/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/SipuliSopuli/kotivadelma/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="kotivadelma" class="anchor" href="#kotivadelma"><span class="octicon octicon-link"></span></a>Kotivadelma</h1>
+
+<p>Kotivadelma is simple, lightweight, portable and easily customizable lobby information display system build with jQuery. It can be used example at home, schools, in the workplace and public places. Kotivadelma is designed to run in browser, so no package installations needed.</p>
+
+<h4>
+<a name="kotivadelma-shows" class="anchor" href="#kotivadelma-shows"><span class="octicon octicon-link"></span></a>Kotivadelma shows</h4>
+
+<ul>
+<li>next public transport depatures from nearby stops</li>
+<li>date and time</li>
+<li>sunrise and sunset</li>
+<li>current weather</li>
+<li>weather forecast</li>
+</ul><p><a href="http://i.imgur.com/Pcdj1B5.jpg">Picture of Kotivadelma in use at my vestibule</a>, running in Raspberry Pi. Check <a href="#make-raspberry-pi-run-kotivadelma">instructions</a> howto make Raspberry Pi run lobby information system.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<ol>
+<li><p>Download Kotivadelma <a href="https://github.com/SipuliSopuli/kotivadelma/archive/master.zip">master.zip</a></p></li>
+<li><p>Move master.zip to lobby screen computer or some server and unzip it to some reasonable directory. If you placed Kotivadelma to server, I recommend to add .htaccess file and allow only certain ip addresses.</p></li>
+<li>
+<p>Configure your installation in config.js. File is well commented so you should get along without step-to-step configuration guide, but here is some usefull stuff</p>
+
+<ul>
+<li>Get stop code(s) from Helsinki Region Transport (hsl) website. This is explained more detailed <a href="#get-stop-codes">later</a>
+</li>
+<li>Get forecast.io apikey from <a href="https://developer.forecast.io/">here</a>
+</li>
+<li>Get latitude and longitude from <a href="http://www.latlong.net/">here</a>
+</li>
+</ul>
+</li>
+<li><p>Open index.html in browser and enjoy, everything should work now</p></li>
+</ol><h2>
+<a name="get-stop-codes" class="anchor" href="#get-stop-codes"><span class="octicon octicon-link"></span></a>Get stop code(s)</h2>
+
+<p>You need stop code(s) to display next public transport depatures from desired stop(s). It is very easy and simple to get these codes.</p>
+
+<p>First go to hsl <a href="http://aikataulut.reittiopas.fi/pysakit/en/">journey planner</a> and search stops or select stop list by locality. On the page that opens next, search desired stop from list and open the timetable for it by clicking stop name. Now you see timetable to desired stop. At the end of this site url, there is string like <em>1173101.html</em>. Those numbers are stop code that you want, so in this example stop code is <em>1173101</em>.</p>
+
+<h2>
+<a name="make-raspberry-pi-run-kotivadelma" class="anchor" href="#make-raspberry-pi-run-kotivadelma"><span class="octicon octicon-link"></span></a>Make Raspberry Pi run Kotivadelma</h2>
+
+<p>Coming soon!</p>
+
+<h2>
+<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h2>
+
+<p><strong>Report bug <a href="https://github.com/SipuliSopuli/kotivadelma/issues">here</a></strong></p>
+
+<p><a href="http://wahalahti.fi">Timi Wahalahti</a> (Finnish)<br>
+timi.wahalahti[a]sange.fi<br>
+sippis / IRCnet<br><a href="https://twitter.com/sipulisopuli">Twitter</a></p>
+
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p><a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU GENERAL PUBLIC LICENSE Version 2</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Kotivadelma maintained by <a href="https://github.com/SipuliSopuli">SipuliSopuli</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
