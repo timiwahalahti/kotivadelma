@@ -10,7 +10,7 @@ Kotivadelma is simple, lightweight, portable and easily customizable lobby infor
 * current weather
 * weather forecast
 
-[Picture of Kotivadelma in use at my vestibule](http://i.imgur.com/Pcdj1B5.jpg), running in Raspberry Pi.
+[Picture of Kotivadelma in use at my vestibule](http://i.imgur.com/Pcdj1B5.jpg), running on Raspberry Pi.
 
 Installation
 --------
