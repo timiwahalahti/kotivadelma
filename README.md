@@ -18,9 +18,10 @@ Installation
 
 2. Move master.zip to lobby screen computer or some server and unzip it to some reasonable directory   
 _If you placed Kotivadelma to server, add .htaccess file to limit requests_
-	order deny,allow
-	deny from all
-	allow from <some ip>
+		
+		order deny,allow
+		deny from all
+		allow from <some ip>
 
 3. Configure your installation in config.js
 	* File is 
