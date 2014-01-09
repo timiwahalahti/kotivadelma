@@ -15,12 +15,12 @@ Kotivadelma is simple, lightweight and easily customizable lobby information dis
 Installation
 --------
 1. Download Kotivadelma [master.zip](https://github.com/SipuliSopuli/kotivadelma/archive/master.zip)
+
 2. Move master.zip to lobby screen computer or some server and unzip it to some reasonable directory   
 _If you placed Kotivadelma to server, add .htaccess file to limit requests_
-```
 	order deny,allow
 	deny from all
 	allow from <some ip>
-```
+
 3. Configure your installation in config.js
 	* File is 
