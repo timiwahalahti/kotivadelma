@@ -39,7 +39,7 @@ Coming soon!
 
 Contact
 --------
-** Report bug [here](https://github.com/SipuliSopuli/kotivadelma/issues)**
+**Report bug [here](https://github.com/SipuliSopuli/kotivadelma/issues)**
 
 [Timi Wahalahti](http://wahalahti.fi) (Finnish)   
 timi.wahalahti[a]sange.fi   
