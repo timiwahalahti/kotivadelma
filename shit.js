@@ -1,8 +1,10 @@
 // All random and small custom shit
 
-// Timestamp variable for log
-var now = new Date(jQuery.now());
-logstamp = (now.getHours()<10 ? '0' : '')+now.getHours()+':'+(now.getMinutes()<10 ? '0' : '')+now.getMinutes()+':'+(now.getSeconds()<10 ? '0' : '')+now.getSeconds();
+// Function to get log timestamp
+function logStamp() {
+	var now = new Date(jQuery.now());
+	return (now.getHours()<10 ? '0' : '')+now.getHours()+':'+(now.getMinutes()<10 ? '0' : '')+now.getMinutes()+':'+(now.getSeconds()<10 ? '0' : '')+now.getSeconds();
+}
 
 // Function for getting, updating and appending date
 function today(options){

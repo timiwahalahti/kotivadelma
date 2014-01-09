@@ -7,7 +7,7 @@ function timetable(){
 
 	  	// Write to screen log
 	  	if (config.general.log) {
-	  		$( "#log" ).prepend( "<p>"+logstamp+" timetable updated</p>" );
+	  		$( "#log" ).prepend( "<p>"+logStamp()+" timetable updated</p>" );
 	  	};
 
 	  	// Empty our timetable for new data
@@ -53,7 +53,7 @@ function timetable(){
 
 	  	// Write to screen log
 	  	if (config.general.log) {
-	  		$( "#log" ).prepend( "<p>"+logstamp+" timetable update failed</p>" );
+	  		$( "#log" ).prepend( "<p>"+logStamp()+" timetable update failed</p>" );
 	  	};
 
 	  	// Timeout for new call
