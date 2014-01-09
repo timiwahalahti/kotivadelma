@@ -1,4 +1,6 @@
-// Default config is backed up in config-defaults.js
+// DO NOT MODIFY THIS FILE
+// this file purpose is to be backup for default configuration
+// and place where you can get it if something breaks.
 var config = {
     // General configuration
     general: {
