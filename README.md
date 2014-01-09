@@ -1,7 +1,7 @@
 Kotivadelma
 ========
 
-Kotivadelma is simple, lightweight, portable and easily customizable lobby information display system build with jQuery. It can be used example at home, schools, in the workplace and public places. Kotivadelma is designed to run in browser, so no package installations needed.
+Kotivadelma is simple, lightweight, portable and easily customizable lobby information screen system build with jQuery. It can be used example at home, schools, in the workplace and public places. Kotivadelma is designed to run in browser, so no package installations needed.
 
 #### Kotivadelma shows
 * next public transport depatures from nearby stops
