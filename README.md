@@ -10,7 +10,7 @@ Kotivadelma is simple, lightweight and easily customizable lobby information dis
 * current weather
 * weather forecast
 
-[Picture of Kotivadelma in use at my vestibule](http://i.imgur.com/Pcdj1B5.jpg)
+![Picture of Kotivadelma in use at my vestibule](http://i.imgur.com/Pcdj1B5.jpg)
 
 Installation
 --------
@@ -18,7 +18,7 @@ Installation
 
 2. Move master.zip to lobby screen computer or some server and unzip it to some reasonable directory. If you placed Kotivadelma to server, I recommend to add .htaccess file and allow only certain ip addresses.
 
-3. Configure your installation in config.js, File is well commented so you should get along without step-to-step configuration guide, but here is some usefull stuff
+3. Configure your installation in config.js. File is well commented so you should get along without step-to-step configuration guide, but here is some usefull stuff
 	* Get stop code(s) from Helsinki Region Transport (hsl) website. This is explained more detailed [later](#get-stop-codes)
 	* Get forecast.io apikey from [here](https://developer.forecast.io/)
 	* Get latitude and longitude from [here](http://www.latlong.net/)
@@ -29,4 +29,7 @@ Get stop code(s)
 --------
 You need stop code(s) to display next public transport depatures from desired stop(s). It is very easy and simple to get these codes.
 
-First go to hsl [journey planner](http://aikataulut.reittiopas.fi/pysakit/en/) and search stops or select stop list by locality. On the page that opens next, search desired stop from list and open the timetable for it by clicking stop name. Now you see timetable to desired stop. At the end of this site url, there is string like _1173101.html_. Those numbers are stop code that you want, so in this example stop code is *1173101*.
+First go to hsl [journey planner](http://aikataulut.reittiopas.fi/pysakit/en/) and search stops or select stop list by locality. On the page that opens next, search desired stop from list and open the timetable for it by clicking stop name. Now you see timetable to desired stop. At the end of this site url, there is string like _1173101.html_. Those numbers are stop code that you want, so in this example stop code is _1173101_.
+
+Get stop code(s)
+--------
