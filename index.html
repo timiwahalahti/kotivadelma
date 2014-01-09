@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>kotivadelma</title>
+		<link rel="stylesheet" href="stylesheet.css" type="text/css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="config.js"></script>
+		<script src="shit.js"></script>
+		<script src="jquery.clock.js"></script>
+		<script src="weather.js"></script>
+		<script src="timetable.js"></script>
+		<script>
+			$( document ).ready(function() {
+				// Start functions and set clock offset
+				$('#clock').clock({offset: '+2', type: 'digital'}); // Do not change clock type!
+				$(weather);
+				$(timetable);
+				$(today);
+			});
+		</script>
+	</head>
+	<body>
+		<div id="timetable">
+			<table class="departures">
+			</table>		
+		</div>
+		<div id="clock">
+			<p><span class="date"></span><span class="hour"></span><span class="min"></span><span class="sec"></span></p>
+		</div>
+		<div id="sun">
+			<p><img src="icons/sunrise.svg"><span class="rise"></span><img src="icons/sunset.svg"><span class="set"></span></p>
+		</div>
+		<div id="weather">
+			<div class="now">
+				<span class="error"></span>
+				<h3><span class="time"></span></h3>
+				<span class="icon"></span>
+				<p class="summary"><span class="summary"></span></p>
+				<p class="temp"><span class="temp"></span>°C</p>
+			</div>
+			<div class="forecast first">
+				<h3><span class="time"></span></h3>
+				<span class="icon"></span>
+				<p class="summary"><span class="summary"></span></p>
+				<p class="temp"><span class="temp"></span>°C</p>
+			</div>
+			<div class="forecast second">
+				<h3><span class="time"></span></h3>
+				<span class="icon"></span>
+				<p class="summary"><span class="summary"></span></p>
+				<p class="temp"><span class="temp"></span>°C</p>
+			</div>
+			<div class="forecast third">
+				<h3><span class="time"></span></h3>
+				<span class="icon"></span>
+				<p class="summary"><span class="summary"></span></p>
+				<p class="temp"><span class="temp"></span>°C</p>
+			</div>
+		</div>
+		<div id="log">
+		</div>
+	</body>
+	</html>

@@ -1,0 +1,152 @@
+html, body {
+	height: 100%;
+    margin: 0;
+    font-family: Courier, Monospace;
+    background-color: #B20DFF;
+}
+h1 {
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: black;
+	text-align: center;
+	font-size: 2em;
+}
+.error {
+	color: red;
+	font-size: 3em;
+}
+#timetable {
+	width: 50%;
+	height: 100%;
+	background-color: #00A3FF;
+	color: #080808;
+	float: left;
+}
+#timetable h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 3em;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	margin-top: 27px;
+	padding-bottom: 0;
+}
+#timetable .departures {
+	margin: 15px auto;
+}
+#timetable .departures .departure {
+	width: 100%;
+}
+#timetable .departures tr.th {
+	height: 30px;
+	vertical-align: top;
+}
+#timetable .departures th {
+	font-weight: normal;
+	text-align: left;
+	text-decoration: underline;
+}
+#timetable .departures .departure td {
+	margin-left: 10px;
+	margin-bottom: 0;
+	font-size: 2em;
+	vertical-align: top;
+}
+#clock {
+	width: 50%;
+	float: right;
+	background-color: #0CE8A4;
+	text-align: center;
+}
+#clock p {
+	margin: 20px auto 0;
+}
+#clock span.date {
+	display: block;
+	font-size: 3em;
+	color: white;
+	margin: 0;
+}
+#clock p span.hour, #clock p span.min {
+	color: #FFF;
+	font-size: 8em;
+}
+#clock p span.sec {
+	color: #B3EEDB;
+	font-size: 4em;
+}
+#sun {
+	width: 50%;
+	float: right;
+	background-color: #FFE800;
+	color: #080808;
+}
+#sun p {
+	margin: auto;
+	width: 340px;
+}
+#sun img {
+	float: left;
+}
+#sun span {
+	float: left;
+	margin-top: 40px;
+	margin-left: -10px;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#weather {
+	width: 50%;
+	float: right;
+	padding-bottom: 15px;
+	background-color: #B20DFF;
+	color: #080808;
+}
+#weather .now, #weather .forecast {
+	padding: 0 0 0 20px;
+	margin: auto;
+}
+#weather .now {
+	float: left;
+	width: 40%;
+}
+#weather .forecast {
+	float: left;
+	width: 40%;
+}
+#weather .now h3, #weather .forecast h3 {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 2em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+#weather .now p.summary, #weather .forecast p.summary {
+	margin-top: 5px;
+}
+#weather .now p, #weather .forecast p {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#weather .now span.icon img, #weather .forecast span.icon img {
+	float: left;
+	margin-right: -8px;
+	margin-left: -25px;
+	margin-top: -20px;
+}
+#log {
+	float: right;
+	overflow: hidden;
+	max-height: 110px;
+	height: 110px;
+	background-color: #B20DFF;
+	color: #353535;
+	width: 50%;
+	padding: 10px 0 10px;
+}
+#log p {
+	margin: 0 10px 0;
+}
