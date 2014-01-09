@@ -7,8 +7,7 @@ function weather(){
 
 	  	// Write to screen log
 	  	if (config.general.log) {
-	  		$( "#log" ).prepend( "<p>"+logStamp()+" weather updated</p>" );
-	  		console.log(logStamp());
+	  		$( "#log" ).prepend( "<p>"+logstamp+" weather updated</p>" );
 	  	};
 
 	  	// Empty things for new data
@@ -78,7 +77,7 @@ function weather(){
 
 	  	// Write to screen log
 	  	if (config.general.log) {
-	  		$( "#log" ).prepend( "<p>"+logStamp()+" weather update failed</p>" );
+	  		$( "#log" ).prepend( "<p>"+logstamp+" weather update failed</p>" );
 	  	};
 
 	  	// Timeout for new call

@@ -3,7 +3,8 @@
 // Function to get log timestamp
 function logStamp() {
 	var now = new Date(jQuery.now());
-	return (now.getHours()<10 ? '0' : '')+now.getHours()+':'+(now.getMinutes()<10 ? '0' : '')+now.getMinutes()+':'+(now.getSeconds()<10 ? '0' : '')+now.getSeconds();
+	var stamp = (now.getHours()<10 ? '0' : '')+now.getHours()+':'+(now.getMinutes()<10 ? '0' : '')+now.getMinutes()+':'+(now.getSeconds()<10 ? '0' : '')+now.getSeconds();
+	return stamp;
 }
 
 // Function for getting, updating and appending date
