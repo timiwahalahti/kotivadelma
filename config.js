@@ -18,7 +18,7 @@ var config = {
     },
     // Configuration for weather section
     weather: {
-        apikey: 'e1bb09cc883fafb1e22818528b00faab', // Apikey for forecast.io
+        apikey: '1234', // Apikey for forecast.io
         latitude: '60.1756', // Latitude of desired location
         longitude: '24.9342', // Longitude of desired location
         units: 'si', // us = US format, si = international system

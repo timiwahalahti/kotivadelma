@@ -16,9 +16,9 @@ Installation
 --------
 1. Download Kotivadelma [master.zip](https://github.com/SipuliSopuli/kotivadelma/archive/master.zip)
 2. Move master.zip to lobby screen computer or some server and unzip it to some reasonable directory   
-If you placed Kotivadelma to server, add .htaccess file to directory for limiting requests
-```
-order deny,allow   
-deny from all   
+_If you placed Kotivadelma to server, add .htaccess file to directory for limiting requests_
+```html
+order deny,allow
+deny from all
 allow from <some ip>
 ```
