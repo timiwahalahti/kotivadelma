@@ -1,7 +1,9 @@
+[Installation](#installation) | [Raspberry Pi lobby screen](#raspberrypi-lobby-screen) | [Contact](#contact) | [License](#license)
+
 Kotivadelma
 ========
 
-Kotivadelma is simple, lightweight and easily customizable lobby information display system build with jQuery. It can be used at home, schools, in the workplace, public places and really anyplace where information needs to be displayed.
+Kotivadelma is simple, lightweight, portable and easily customizable lobby information display system build with jQuery. It can be used at home, schools, in the workplace, public places and really anyplace where information needs to be displayed. Kotivadelma is designed to run in browser, so package installations is not needed.
 
 #### Kotivadelma shows
 * next public transport depatures from nearby stops
@@ -10,7 +12,7 @@ Kotivadelma is simple, lightweight and easily customizable lobby information dis
 * current weather
 * weather forecast
 
-![Picture of Kotivadelma in use at my vestibule](http://i.imgur.com/Pcdj1B5.jpg)
+[Picture of Kotivadelma in use at my vestibule](http://i.imgur.com/Pcdj1B5.jpg)
 
 Installation
 --------
@@ -31,5 +33,19 @@ You need stop code(s) to display next public transport depatures from desired st
 
 First go to hsl [journey planner](http://aikataulut.reittiopas.fi/pysakit/en/) and search stops or select stop list by locality. On the page that opens next, search desired stop from list and open the timetable for it by clicking stop name. Now you see timetable to desired stop. At the end of this site url, there is string like _1173101.html_. Those numbers are stop code that you want, so in this example stop code is _1173101_.
 
-Get stop code(s)
+RaspberryPi lobby screen
 --------
+Coming soon!
+
+Contact
+--------
+** Report bug [here](https://github.com/SipuliSopuli/kotivadelma/issues)**
+
+[Timi Wahalahti](http://wahalahti.fi) (Finnish)   
+timi.wahalahti[a]sange.fi   
+sippis / IRCnet   
+[Twitter](https://twitter.com/sipulisopuli)
+
+License
+--------
+[GNU GENERAL PUBLIC LICENSE Version 2](http://www.gnu.org/licenses/gpl-2.0.html)
