@@ -16,13 +16,7 @@ Installation
 --------
 1. Download Kotivadelma [master.zip](https://github.com/SipuliSopuli/kotivadelma/archive/master.zip)
 
-2. Move master.zip to lobby screen computer or some server and unzip it to some reasonable directory   
-
-_If you placed Kotivadelma to server, add .htaccess file to limit requests_
-		
-		order deny,allow
-		deny from all
-		allow from <some ip>
+2. Move master.zip to lobby screen computer or some server and unzip it to some reasonable directory. If you placed Kotivadelma to server, I recommend to add .htaccess file and allow only certain ip addresses.
 
 3. Configure your installation in config.js, File is well commented so you should get along without step-to-step configuration guide, but here is some usefull stuff
 	* Get stop codes from Helsinki Region Transport (hsl) website. This is explained more detailed [later](#)
